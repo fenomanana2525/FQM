@@ -38,9 +38,6 @@ $(document).ready(function () {
 <div class="col-md-12">
     <div class="panel panel-primary">
         <div class="panel-heading">
-	    	<div class="row">
-				{{ auto_reloader(True, duration=translate('Duration', 'en', [defLang]), refresh=translate('Auto reload', 'en', [defLang]), durMsg=translate('Enter a duration in seconds to auto-reload the page in :', 'en', [defLang])) }}
-    			<div class="col-xs-12 hidden-md hidden-lg text-center mt-2">
         			<a href="#" data-toggle="modal" data-target="#branch_qr"
         				data-toggle="tooltip"
         				title="{{ translate('QR Code : Office', 'en', [defLang]) }}"
